@@ -87,7 +87,7 @@ jobs:
 
     - name: Install OpenJDK
       run: |
-        git clone https://github.com/Aryan111/jdk.git
+        git clone https://github.com/Aryan111/jdk.git ./jdk.sh
         sudo bash jdk/setup/packages/jdk.sh
         
     - name: Install Git-Repo
